@@ -1,0 +1,17 @@
+.gllry-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.gllry-container .gllry-item{
+    width: 25%;
+    height: 25%;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
